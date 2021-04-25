@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cal.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1 style="text-align: center">SIP CALCULATOR</h1>
+      <!-- <form action="">
+        <input type="radio" id="sip" name="sip" value="sip" />
+        <label for="sip">SIP CALCULATOR</label>
+        <input type="radio" id="lumpsum" name="lumpsum" value="lumpsum" />
+        <label for="lumpsum">LUMPSUM</label>
+      </form> -->
+      <form>
+        <h2>Monthly Investment</h2>
+        <input class="monthly-invest" type="number" />
+        <br />
+        <h2>Expected Return Rate</h2>
+        <input class="rate" type="text" />
+        <br />
+        <h2>Time Period</h2>
+        <input type="number" name="" id="" class="time" />
+        <br />
+        <br />
+        <button type="submit" class="btn button button1">Calculate</button>
+      </form>
+
+      <b> <p style="float: left" class="investedAmount"></p></b>
+      <b> <p style="float: right" class="return"></p></b>
+      <b> <p style="color: black" class="totalReturns"></p></b>
+    </div>
+    <script src="cal.js"></script>
+  </body>
+</html>
